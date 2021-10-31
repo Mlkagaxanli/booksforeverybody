@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bookstore
+    username: root
+    password: 1234
+  liquibase:
+    change-log: classpath:liquibase/changelog-master.yml
+
+logging:
+  level:
+    root: info
+    com.developia.hibernateexample: debug

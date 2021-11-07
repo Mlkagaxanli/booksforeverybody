@@ -4,4 +4,5 @@ import com.developia.booksforeverybody.dao.entity.CartEntity;
 
 public interface CartService {
     CartEntity getCart(String username);
+    void addBookToCart(String username, Long bookId);
 }
